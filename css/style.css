@@ -1,0 +1,45 @@
+* {
+    padding: 0px 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    margin: 0 0;
+
+   
+    background-color: beige;
+    height: 100vh;
+}
+
+.content{
+    margin-top: 20px;
+    font-size: 2rem;
+    
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    height: 20%;
+    
+}
+
+li {
+    padding: 5px 5px;
+
+    list-style: none;
+    font-style: none;
+}
+
+a {
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+}
